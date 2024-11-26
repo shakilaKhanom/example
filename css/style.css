@@ -1,0 +1,261 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+   width: 90%;
+    margin: 0 auto; 
+}   
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.nav-section{
+    background-color: #fff;
+    padding: 0.5%;
+    padding: 5px 5px;
+}
+
+span{
+    color: rgb(20, 20, 195);
+}
+
+.nav-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-abc h2{
+    color: #000;
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    
+    justify-content: center;
+ 
+}
+
+
+
+nav ul li a{
+    color: #030303;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: crimson;
+}
+
+
+nav{
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a:hover{
+    color: #f80909;
+}
+
+.sub-menu{
+    width: 300px;
+    display: block;
+    position: absolute;
+    left: -9999px;
+}
+
+.sub-menu li{
+    border-bottom: 1px solid white;
+}
+
+nav ul li:hover .sub-menu{
+    left: 0px;
+}
+
+.fa-solid1{
+  
+    height: 0 auto;
+    font-size: 16px;
+   line-height: 18PX;
+    color: #f80909;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: rgb(247, 244, 239);
+
+}
+
+.fa-solid1:hover{
+    background-color: crimson;
+    color: #fff;
+}
+
+
+.button-p{
+    width: 400;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 20px;
+    background-color: #080840;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+
+
+
+.fa-regular{
+    font-size: 40px;
+   padding-top: 10PX;
+    font-style: italic;
+   
+}
+/*banner section start */
+.section-content{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.section-title{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.section-title h1{
+    font-size: 50px;
+    
+}
+
+.section-title p{
+    font-size: 24px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color: rgb(90, 91, 92);
+}
+
+.section-title button{
+    font-size: 20px;
+    padding: 15px 15px;
+}
+.button1{
+    background-color: hwb(240 5% 64%);
+    color: #fff;
+    border-color: #060636;
+    border-radius: 10px;
+   margin-right: 20px;
+}
+
+.button2{
+    color: hwb(240 2% 75%);
+    border-color: rgb(16, 16, 117);
+    border-radius: 10px;
+   
+}
+.button2:hover{
+    background-color: rgb(8, 8, 101);
+    color: #fff;
+}
+img{
+    width: 600px;
+    height: auto;
+    padding-left: 80px;
+   
+}
+/* banner section end*/
+/* design marketing section start*/
+.design-section{
+    background-color: antiquewhite;
+}
+
+.design-content{
+   padding: 80px 40px;
+}
+
+.design-title{
+    display: flex;
+    
+}
+.title-1 p{
+    font-size: 16px;
+    padding-bottom:15px;
+}
+.title-1{
+    width: 100%;
+    padding-top: 30px;
+}
+
+.title-1 p{
+    padding-top: 20px;
+    font-size: 18px;
+    color: rgb(72, 71, 71);
+}
+
+.design-title h2{
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+   padding-bottom: 20px;
+}
+
+.title-2 p{
+    width: 100%;
+    padding-top: 50px;
+    font-size: 24px;
+    color: rgb(79, 75, 75);
+} 
+.design-marketing{
+    display: flex;
+}
+
+.design-marketing{
+    padding-top: 50px;
+}
+
+.design-marketing p{
+    padding-left: 20px;
+    font-size: 18px;
+    color: rgb(102, 101, 101);
+}
+
+.design-marketing h3{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 24px;
+   
+}
+
+.design-marketing i{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.icon:hover{
+    color: #f80909;
+}
+
+.fa-pen-to-square{
+    color: #f80909;
+}
